@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ae">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Law Firm | مكتب طه للمحاماة</title>
+    <style>
+        :root {
+            --navy: #0B192C;
+            --light-navy: #1E3E62;
+            --gold: #D4AF37;
+            --white: #FFFFFF;
+            --light-gray: #F5F7F8;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            color: var(--navy);
+            direction: rtl; /* Default to Arabic layout */
+        }
+
+        /* Top Header */
+        header {
+            background-color: var(--navy);
+            color: var(--white);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: var(--gold);
+        }
+
+        /* Hero Split Section (Bilingual Intro) */
+        .hero-container {
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 70vh;
+        }
+
+        .hero-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .hero-ar {
+            background-color: var(--light-gray);
+            text-align: right;
+            direction: rtl;
+            border-left: 1px solid #E0E0E0;
+        }
+
+        .hero-en {
+            background-color: var(--white);
+            text-align: left;
+            direction: ltr;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--navy);
+            margin-bottom: 20px;
+        }
+
+        .hero-box p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #4A5568;
+        }
+
+        .highlight {
+            color: var(--light-navy);
+            font-weight: bold;
+        }
+
+        /* AI Prompt Visual Indicator */
+        .ai-indicator {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: var(--navy);
+            color: var(--white);
+            border-radius: 8px;
+            display: inline-block;
+            border-right: 4px solid var(--gold);
+        }
+        .hero-en .ai-indicator {
+            border-right: none;
+            border-left: 4px solid var(--gold);
+        }
+
+        footer {
+            background-color: var(--navy);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--light-navy);
+        }
+
+        @media (max-width: 768px) {
+            .hero-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">TAHA <span>LAW FIRM</span></div>
+        <div class="logo" style="font-size: 1.3rem;">مكتب طه <span>للمحاماة</span></div>
+    </header>
+
+    <main class="hero-container">
+        <!-- Arabic Section -->
+        <section class="hero-box hero-ar">
+            <h1>مكتب طه للمحاماة الكوني</h1>
+            <p>مرحباً بكم في منصتنا القانونية الذكية. تم تأسيس هذا الموقع لتقديم استشارات فورية ودقيقة تعتمد حصرياً على <span class="highlight">كتب ومصادر القانون المصري الرسمية</span> المرفوعة بالنظام.</p>
+            <p>نحن لا نعتمد على محركات البحث العامة، بل نضمن لك حلاً قانونياً مستمداً مباشرة من نصوص التشريعات الفقهية والقانونية المصرية المعتمدة.</p>
+            <div class="ai-indicator">
+                💡 اضغط على فقاعة المحادثة بالأسفل واسأل مستشارك الذكي باللغة العربية!
+            </div>
+        </section>
+
+        <!-- English Section -->
+        <section class="hero-box hero-en">
+            <h1>Taha Law Firm</h1>
+            <p>Welcome to our modern legal AI gateway. This platform is tailored to provide instant, precise answers drawn exclusively from verified <span class="highlight">Egyptian Law Books and Official Documents</span> uploaded to our secure core.</p>
+            <p>We bypass general search engine noise to ensure your legal inquiries are resolved using exact statutory law text and established legal principles.</p>
+            <div class="ai-indicator">
+                💡 Click the chat bubble below to consult your AI assistant in English!
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taha Law Firm. All Rights Reserved. | جميع الحقوق محفوظة لمكتب طه للمحاماة</p>
+    </footer>
+
+    <!-- Paste your Chatbot script code right below this line -->
+
+</body>
+</html>
